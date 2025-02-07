@@ -6,6 +6,7 @@ int main() {
     // Initialize random number generator
     srand(time(0));
 
+
     // Generate a random number between 1 and 100
     int random_number = rand() % 100 + 1;
     int no_of_guessed = 0;
